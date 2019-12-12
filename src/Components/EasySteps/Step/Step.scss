@@ -1,0 +1,20 @@
+.step {
+  margin-top: 75px;
+
+  .heading, .content {
+    word-break: break-word;
+    color: #3d3d3d;
+    font-weight: 400;
+  }
+
+  .line {
+    border: 0.9px solid #3d3d3d;
+    width: 60%;
+    margin: 2% auto;
+  }
+  .stepIcon {
+    //background-image: url("../Images/x.jpg");
+    height: 100px;
+    width: 100px;
+  }
+}

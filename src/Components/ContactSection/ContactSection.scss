@@ -1,0 +1,86 @@
+.ContactSection_container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 950px;
+  background-size: cover;
+  background-image: url("./Images/footer_bg_img.jpg");
+  background-repeat: no-repeat;
+
+  .ContactSection_header {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 96%;
+    width: 35%;
+    h2 {
+      margin-top: 120px;
+      margin-bottom: 20px;
+      font-size: 40px;
+      font-weight: 100;
+    }
+    .page-call-decoration {
+      margin-bottom: 0;
+    }
+  }
+}
+
+footer > p {
+  font-size: 18px;
+}
+
+footer {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2%;
+}
+
+  .copyright {
+    color: #3d3d3d;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+
+  .fb-icon {
+    margin-left: 1300px;
+    width: 55px;
+    height: 55px;
+    border: 1px solid #3d3d3d;
+    line-height: 55px;
+    transition: 0.6s;
+    &:hover {
+      border-radius: 50%;
+      background: rgba(#000, 0.05);
+    }
+  }
+
+  .ig-icon {
+    margin-left: 1300px;
+    width: 55px;
+    height: 55px;
+    border: 1px solid #3d3d3d;
+    line-height: 55px;
+    transition: 0.6s;
+    &:hover {
+      border-radius: 50%;
+      background: rgba(#000, 0.05);
+    }
+  }
+
+  .custom-fb:before {
+    content: "\f09a";
+    font-family: FontAwesome;
+    font-size: 40px;
+    color: #3d3d3d;
+    display: inline-block;
+  }
+
+
+  .custom-ig:before {
+    content: "\f16d";
+    font-family: FontAwesome;
+    font-size: 40px;
+    color: #3d3d3d;
+    display: inline-block;
+  }

@@ -1,0 +1,133 @@
+.FoundationList_container {
+  color: #3d3d3d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height:980px;
+
+  .FoundationList_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+      font-size:38px;
+      font-weight: 100;
+      margin: 70px 0 20px 0;
+    }
+
+    .page-call-decoration {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.FoundationMenu_list_container {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  height: 80px;
+
+  .FoundationMenu_list li {
+    height:82px;
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    width: 33.3333%;
+    cursor: pointer;
+
+
+
+    a {
+      height:82px;
+      text-decoration: none;
+      display: table-cell;
+      color: #3d3d3d;
+      font-size: 22px;
+      border: 1px solid #ffffff;
+      border-radius: 1px;
+      width: 200px;
+      text-align: center;
+      vertical-align: middle;
+      //padding-top:10px;
+    }
+
+    a:hover {
+      border-color: #3d3d3d;
+      background: rgba(#000, 0.05);
+    }
+  }
+}
+
+
+
+.FoundationList p {
+  width:600px;
+  font-size: 20px;
+  text-align: center;
+  margin:15px;
+}
+
+ul.FoundationMenu_list > li:first-child > a {
+  line-height: 52px;
+}
+
+button {
+  background: none;
+  border: none;
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  color: #3d3d3d;
+  cursor: pointer;
+  &:hover {
+    border: 1px solid #3d3d3d;
+    background: rgba(#000, 0.05);
+  }
+}
+
+.container__foundation {
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.container__foundation--box1 {
+  display:flex;
+  flex-direction: column;
+  width: 48%;
+  margin-top:2%;
+  hr {
+    width:80%;
+    margin: 30px 0 30px 0;
+  }
+}
+
+.container__foundation--box2 {
+  display:flex;
+  flex-direction: column;
+  width: 42%;
+  margin-top:38px;
+  hr {
+    margin: 26px 0 40px 0;
+  }
+}
+
+.header__foundation--title {
+  font-size: 25px;
+  font-weight:200;
+}
+
+.text__foundation--aim{
+  font-size: 17px;
+  font-style: italic;
+}
+
+.text__foundation--items {
+  font-size: 17px;
+  text-align: right;
+  margin-top: 26px;
+}
